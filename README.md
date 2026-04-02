@@ -43,3 +43,13 @@ Open `index.html` in a browser.
 - Replace the generated favicon files in `assets/favicon/` with your final brand icons if needed.
 - GitHub and email are wired from repo metadata.
 - LinkedIn is wired to the public profile URL.
+
+## GitHub Pages
+
+To deploy this site with the included workflow, enable GitHub Pages in the repository first:
+
+1. Go to `Settings`
+2. Open `Pages`
+3. Under `Build and deployment`, set `Source` to `GitHub Actions`
+
+Optional: add a secret named `PAGES_ENABLEMENT_TOKEN` if you want the workflow to auto-enable Pages on first run. This must be a token with Pages/admin rights; the default `GITHUB_TOKEN` is not sufficient for that step.
