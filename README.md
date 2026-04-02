@@ -44,12 +44,13 @@ Open `index.html` in a browser.
 - GitHub and email are wired from repo metadata.
 - LinkedIn is wired to the public profile URL.
 
-## GitHub Pages
+## GitHub Pages Setup
 
-To deploy this site with the included workflow, enable GitHub Pages in the repository first:
+This repository includes a GitHub Pages workflow, but deployment will fail until GitHub Pages is enabled for the repository.
 
-1. Go to `Settings`
+1. Go to repository `Settings`
 2. Open `Pages`
-3. Under `Build and deployment`, set `Source` to `GitHub Actions`
+3. Under `Build and deployment`
+4. Set `Source` to `GitHub Actions`
 
-Optional: add a secret named `PAGES_ENABLEMENT_TOKEN` if you want the workflow to auto-enable Pages on first run. This must be a token with Pages/admin rights; the default `GITHUB_TOKEN` is not sufficient for that step.
+This step is mandatory.
