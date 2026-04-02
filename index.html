@@ -1,265 +1,630 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Abdullah Al Mohin Jaki | Backend Engineer & R&D Developer</title>
-  <meta name="description" content="Personal one-page portfolio of Abdullah Al Mohin Jaki — Backend Engineer, Cyber Security Researcher, and R&D Developer." />
-  <meta name="theme-color" content="#08111f" />
-  <meta property="og:title" content="Abdullah Al Mohin Jaki | Portfolio" />
-  <meta property="og:description" content="Backend Engineer, Cyber Security Researcher, and R&D Developer building secure, scalable, intelligence-driven systems." />
-  <meta property="og:type" content="website" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Jaki | AI Style Portfolio</title>
+    <meta
+            name="description"
+            content="AI-style personal portfolio for Jaki, a backend developer, security researcher, and R&D developer."
+    />
+    <meta name="theme-color" content="#020617"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <div class="site-shell">
-    <header class="header">
-      <nav class="nav container">
-        <a class="brand" href="#home">JAKI</a>
-        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-        <div class="nav-links">
-          <a href="#about">About</a>
-          <a href="#expertise">Expertise</a>
-          <a href="#projects">Projects</a>
-          <a href="#stack">Stack</a>
-          <a href="#contact">Contact</a>
+<div class="ambient ambient--one" aria-hidden="true"></div>
+<div class="ambient ambient--two" aria-hidden="true"></div>
+<div class="grid-mask" aria-hidden="true"></div>
+
+<div class="page-shell">
+    <header class="top-bar">
+        <a class="brand" href="#top">jaki://assistant</a>
+        <div class="session-pill">
+            <span class="session-dot"></span>
+            <span>Portfolio session active</span>
         </div>
-      </nav>
     </header>
 
-    <main id="home">
-      <section class="hero section">
-        <div class="container hero-grid">
-          <div class="hero-copy reveal">
-            <p class="eyebrow">Backend Engineer • Cyber Security Researcher • R&D Developer</p>
-            <h1>Building secure, scalable and intelligence-driven digital systems.</h1>
+    <section class="hero-section glass-panel" id="top">
+        <div class="hero-copy">
+            <div class="hero-badges">
+                <span class="greeting-badge">Hello!</span>
+                <span class="meta-badge">AI interface portfolio</span>
+            </div>
+
+            <p class="hero-label">Interactive intro</p>
+            <h1>
+                I'm Jaki
+                <span>Backend Developer</span>
+            </h1>
+
+            <div class="subtitle-cluster" aria-label="Professional roles">
+                <span>Backend Engineer</span>
+                <span>Security Researcher</span>
+                <span>R&amp;D Developer</span>
+            </div>
+
             <p class="hero-text">
-              I work at the intersection of backend engineering, cyber security research, automation,
-              data intelligence and media-focused analytical systems. My focus is building reliable
-              products that support decision making, operational workflows and long-term maintainability.
+                With a dynamic background encompassing five years of continuous growth in the software development
+                field, I am driven by a passion to foster positive impacts within organizations as a dedicated software
+                developer. Eager to exhibit my competencies through engaging in challenging, growth-oriented initiatives.
             </p>
+
             <div class="hero-actions">
-              <a class="btn btn-primary" href="#projects">View Projects</a>
-              <a class="btn btn-secondary" href="#contact">Contact Me</a>
+                <button class="prompt-btn prompt-btn--primary" type="button" data-target="about">
+                    About Me
+                </button>
+                <button class="prompt-btn" type="button" data-target="projects">
+                    See My Work
+                </button>
             </div>
-            <ul class="hero-highlights">
-              <li>Python / Django / DRF</li>
-              <li>Security-Oriented Architecture</li>
-              <li>R&D and Automation Mindset</li>
-            </ul>
-          </div>
+        </div>
 
-          <aside class="hero-card reveal delay-1">
-            <div class="avatar">AJ</div>
-            <h2>Abdullah Al Mohin Jaki</h2>
-            <p>Backend-focused developer with hands-on experience in intelligence systems, data pipelines, research workflows and scalable web applications.</p>
-            <div class="mini-stats">
-              <article>
-                <strong>Multi-domain</strong>
-                <span>Development, Security, R&D, Media Intelligence</span>
-              </article>
-              <article>
-                <strong>Preferred Stack</strong>
-                <span>Python, Django, DRF, PostgreSQL, Elasticsearch</span>
-              </article>
+        <div class="hero-side">
+            <!-- Hero profile image target: 450x550px source asset, 4:5 ratio. PNG with transparent background preferred. -->
+            <figure class="hero-image portrait-frame portrait-frame--live" aria-label="Portrait of Jaki">
+                <div class="profile-image-shell">
+                    <img
+                            class="profile-image"
+                            src="assets/images/profile.png"
+                            alt="Portrait of Jaki"
+                            width="500"
+                            height="500"
+                    />
+                </div>
+            </figure>
+
+            <div class="hero-highlights">
+                <article>
+                    <span>Focus</span>
+                    <strong>Secure systems</strong>
+                </article>
+                <article>
+                    <span>Builds</span>
+                    <strong>Data platforms</strong>
+                </article>
+                <article>
+                    <span>Mode</span>
+                    <strong>R&amp;D + automation</strong>
+                </article>
             </div>
-          </aside>
         </div>
-      </section>
+    </section>
 
-      <section class="section" id="about">
-        <div class="container">
-          <div class="section-heading reveal">
-            <p class="eyebrow">About</p>
-            <h2>Professional profile</h2>
-          </div>
-          <div class="about-grid">
-            <div class="card reveal">
-              <p>
-                I am a backend-focused developer who enjoys turning complex operational ideas into
-                practical software systems. My work often involves API design, dashboard development,
-                search and analytics, structured data management, automation and security-aware architecture.
-              </p>
-              <p>
-                Over time, I have worked on monitoring platforms, analytical systems, incident-oriented
-                applications, reporting tools, research-driven prototypes and internal workflow solutions.
-                Even when projects are protected by NDA, the underlying pattern remains the same: solve
-                real problems with stable system design and clean implementation.
-              </p>
-            </div>
-            <div class="card reveal delay-1">
-              <ul class="check-list">
-                <li>Designing backend architecture for real-world applications</li>
-                <li>Creating API-driven systems with clean data flow</li>
-                <li>Building dashboards, reporting and intelligence-style tools</li>
-                <li>Researching security, automation and performance improvements</li>
-                <li>Working across development, analysis and product thinking</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="expertise">
-        <div class="container">
-          <div class="section-heading reveal">
-            <p class="eyebrow">Core Expertise</p>
-            <h2>What I work on</h2>
-          </div>
-          <div class="card-grid">
-            <article class="card reveal">
-              <h3>Backend Development</h3>
-              <p>Django applications, REST APIs, authentication flows, role-based architecture and maintainable business logic.</p>
-            </article>
-            <article class="card reveal delay-1">
-              <h3>Data & Intelligence Systems</h3>
-              <p>Search, dashboards, monitoring, structured reporting, incident workflows and information analysis tools.</p>
-            </article>
-            <article class="card reveal delay-2">
-              <h3>Security Research</h3>
-              <p>Security-aware development, research-driven implementation, exposure analysis and system hardening mindset.</p>
-            </article>
-            <article class="card reveal">
-              <h3>Automation & Tooling</h3>
-              <p>Python-based automation, utility scripts, workflow optimization and repetitive task reduction through code.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="projects">
-        <div class="container">
-          <div class="section-heading reveal">
-            <p class="eyebrow">Selected Work</p>
-            <h2>Representative project areas</h2>
-          </div>
-          <div class="project-list">
-            <article class="project-card reveal">
-              <div>
-                <span class="project-tag">Monitoring & Analytics</span>
-                <h3>Intelligence Monitoring Platform</h3>
-                <p>Designed systems to monitor data sources, structure findings, support filtering, analytics, reporting and insight generation for operational use.</p>
-              </div>
-              <ul>
-                <li>Analytical dashboards</li>
-                <li>Sentiment or category-based segmentation</li>
-                <li>Search and report workflows</li>
-              </ul>
-            </article>
-
-            <article class="project-card reveal delay-1">
-              <div>
-                <span class="project-tag">Incident & Geo Data</span>
-                <h3>Incident Analysis System</h3>
-                <p>Worked on incident-oriented products with location-based data, filtering, structured records, mapping support and reporting modules.</p>
-              </div>
-              <ul>
-                <li>Geo-linked records</li>
-                <li>Classification and archive workflows</li>
-                <li>Operational reporting support</li>
-              </ul>
-            </article>
-
-            <article class="project-card reveal delay-2">
-              <div>
-                <span class="project-tag">Research & Security</span>
-                <h3>Credential and Exposure Research Tools</h3>
-                <p>Built research-focused applications involving structured search, data visibility control, subscription logic and risk-oriented presentation of results.</p>
-              </div>
-              <ul>
-                <li>Search-oriented interface design</li>
-                <li>Credit and access control logic</li>
-                <li>Data normalization and filtering</li>
-              </ul>
-            </article>
-
-            <article class="project-card reveal">
-              <div>
-                <span class="project-tag">Automation</span>
-                <h3>Workflow Automation Toolkit</h3>
-                <p>Created helper tools and automations for data processing, productivity improvement, platform maintenance and repetitive operational tasks.</p>
-              </div>
-              <ul>
-                <li>Python utility scripts</li>
-                <li>Bulk processing workflows</li>
-                <li>Operational efficiency improvements</li>
-              </ul>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="stack">
-        <div class="container">
-          <div class="section-heading reveal">
-            <p class="eyebrow">Stack</p>
-            <h2>Technologies I use</h2>
-          </div>
-          <div class="stack-wrap reveal">
-            <span>Python</span>
-            <span>Django</span>
-            <span>Django REST Framework</span>
-            <span>FastAPI</span>
-            <span>PostgreSQL</span>
-            <span>Elasticsearch</span>
-            <span>Docker</span>
-            <span>Nginx</span>
-            <span>Linux</span>
-            <span>JavaScript</span>
-            <span>Git & GitHub</span>
-            <span>PyCharm</span>
-            <span>Postman</span>
-            <span>VMware</span>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="approach">
-        <div class="container split-grid">
-          <div class="section-heading reveal">
-            <p class="eyebrow">Approach</p>
-            <h2>How I usually work</h2>
-          </div>
-          <div class="timeline card reveal delay-1">
-            <div><strong>01.</strong><span>Understand the real operational problem</span></div>
-            <div><strong>02.</strong><span>Design stable data flow and system structure</span></div>
-            <div><strong>03.</strong><span>Build clean backend logic and practical UI support</span></div>
-            <div><strong>04.</strong><span>Optimize for security, maintainability and scale</span></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="contact">
-        <div class="container">
-          <div class="contact-card reveal">
+    <main class="console-panel glass-panel">
+        <div class="console-head">
             <div>
-              <p class="eyebrow">Contact</p>
-              <h2>Let’s build something practical and professional.</h2>
-              <p>
-                Available for backend development, system architecture, research-driven product work,
-                automation and technical collaboration.
-              </p>
+                <p class="console-label">assistant.output</p>
+                <h2>Progressive response stream</h2>
             </div>
-            <div class="contact-actions">
-              <a class="btn btn-primary" href="https://github.com/jakiiii" target="_blank" rel="noreferrer">GitHub Profile</a>
-              <a class="btn btn-secondary" href="mailto:your-email@example.com">Email Me</a>
+            <div class="console-status">
+                <span class="session-dot"></span>
+                <span>Ready for prompts</span>
             </div>
-          </div>
         </div>
-      </section>
+
+        <div class="conversation" id="conversation">
+            <article class="message is-visible">
+                <div class="message-meta">
+                    <span class="message-role">Assistant</span>
+                    <span class="message-tag">system.boot()</span>
+                </div>
+                <div class="message-bubble">
+                    <p class="intro-text">
+                        Choose a suggestion to open a section. Each answer appears like an AI
+                        response instead of a traditional portfolio page.
+                    </p>
+                    <div class="quick-prompts">
+                        <button class="quick-chip" type="button" data-target="about">About Me</button>
+                        <button class="quick-chip" type="button" data-target="skills">Skills</button>
+                        <button class="quick-chip" type="button" data-target="projects">Projects</button>
+                        <button class="quick-chip" type="button" data-target="experience">Experience</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="message" id="about" data-response="about" hidden>
+                <div class="message-meta">
+                    <span class="message-role">Assistant</span>
+                    <span class="message-tag">profile.about()</span>
+                </div>
+                <div class="message-bubble">
+                    <div class="response-title">
+                        <span class="response-count">01</span>
+                        <div>
+                            <p class="response-label">About Me</p>
+                            <h3>AI-style profile summary</h3>
+                        </div>
+                    </div>
+
+                    <p class="type-line" data-speed="15">
+                        I am a backend-focused developer with experience in building secure,
+                        scalable, and data-driven systems.
+                    </p>
+                    <p class="type-line" data-speed="15">
+                        My work covers backend engineering, API development, research-oriented
+                        tools, automation, and analytical platforms.
+                    </p>
+                    <p class="type-line" data-speed="15">
+                        I enjoy solving practical problems through clean architecture and
+                        maintainable implementation.
+                    </p>
+
+                    <ul class="response-points">
+                        <li class="stagger-item" style="--delay: 0.08s;">Secure backend architecture</li>
+                        <li class="stagger-item" style="--delay: 0.16s;">Scalable API systems</li>
+                        <li class="stagger-item" style="--delay: 0.24s;">Automation workflows</li>
+                        <li class="stagger-item" style="--delay: 0.32s;">Analytical platforms</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="message" id="skills" data-response="skills" hidden>
+                <div class="message-meta">
+                    <span class="message-role">Assistant</span>
+                    <span class="message-tag">profile.skills()</span>
+                </div>
+                <div class="message-bubble">
+                    <div class="response-title">
+                        <span class="response-count">02</span>
+                        <div>
+                            <p class="response-label">Skills</p>
+                            <h3>Core stack grouped like a clean capability map</h3>
+                        </div>
+                    </div>
+
+                    <p class="type-line" data-speed="16">
+                        My toolkit is split between frontend polish, backend depth, and the
+                        infrastructure required to ship dependable systems.
+                    </p>
+
+                    <div class="skills-grid">
+                        <section class="skill-panel stagger-item" style="--delay: 0.08s;">
+                            <div class="skill-category">
+                                <p>Frontend</p>
+                                <span>UI essentials</span>
+                            </div>
+                            <div class="skill-row">
+                                <span>HTML</span>
+                                <span class="rating-stars" style="--rating: 5;" aria-label="5 out of 5 stars"></span>
+                            </div>
+                            <div class="skill-row">
+                                <span>CSS</span>
+                                <span class="rating-stars" style="--rating: 4.8;"
+                                      aria-label="4.8 out of 5 stars"></span>
+                            </div>
+                            <div class="skill-row">
+                                <span>JavaScript</span>
+                                <span class="rating-stars" style="--rating: 4.6;"
+                                      aria-label="4.6 out of 5 stars"></span>
+                            </div>
+                        </section>
+
+                        <section class="skill-panel stagger-item" style="--delay: 0.16s;">
+                            <div class="skill-category">
+                                <p>Backend</p>
+                                <span>Core delivery stack</span>
+                            </div>
+                            <div class="skill-row">
+                                <span>Python</span>
+                                <span class="rating-stars" style="--rating: 5;" aria-label="5 out of 5 stars"></span>
+                            </div>
+                            <div class="skill-row">
+                                <span>Django</span>
+                                <span class="rating-stars" style="--rating: 4.9;"
+                                      aria-label="4.9 out of 5 stars"></span>
+                            </div>
+                            <div class="skill-row">
+                                <span>Django REST Framework</span>
+                                <span class="rating-stars" style="--rating: 4.8;"
+                                      aria-label="4.8 out of 5 stars"></span>
+                            </div>
+                            <div class="skill-row">
+                                <span>PostgreSQL</span>
+                                <span class="rating-stars" style="--rating: 4.7;"
+                                      aria-label="4.7 out of 5 stars"></span>
+                            </div>
+                            <div class="skill-row">
+                                <span>Wagtail</span>
+                                <span class="rating-stars" style="--rating: 4.5;"
+                                      aria-label="4.5 out of 5 stars"></span>
+                            </div>
+                        </section>
+
+                        <section class="skill-panel stagger-item" style="--delay: 0.24s;">
+                            <div class="skill-category">
+                                <p>DevOps / Tools</p>
+                                <span>Operations and workflow tools</span>
+                            </div>
+                            <div class="skill-row">
+                                <span>Docker</span>
+                                <span class="rating-stars" style="--rating: 4.6;"
+                                      aria-label="4.6 out of 5 stars"></span>
+                            </div>
+                            <div class="skill-row">
+                                <span>Linux</span>
+                                <span class="rating-stars" style="--rating: 4.8;"
+                                      aria-label="4.8 out of 5 stars"></span>
+                            </div>
+                            <div class="skill-row">
+                                <span>Nginx</span>
+                                <span class="rating-stars" style="--rating: 4.5;"
+                                      aria-label="4.5 out of 5 stars"></span>
+                            </div>
+                            <div class="skill-row">
+                                <span>GitHub</span>
+                                <span class="rating-stars" style="--rating: 4.7;"
+                                      aria-label="4.7 out of 5 stars"></span>
+                            </div>
+                            <div class="skill-row">
+                                <span>PyCharm</span>
+                                <span class="rating-stars" style="--rating: 4.8;"
+                                      aria-label="4.8 out of 5 stars"></span>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </article>
+
+            <article class="message" id="projects" data-response="projects" hidden>
+                <div class="message-meta">
+                    <span class="message-role">Assistant</span>
+                    <span class="message-tag">profile.projects()</span>
+                </div>
+                <div class="message-bubble">
+                    <div class="response-title">
+                        <span class="response-count">03</span>
+                        <div>
+                            <p class="response-label">Projects</p>
+                            <h3>Projects</h3>
+                        </div>
+                    </div>
+
+                    <p class="type-line" data-speed="16">
+                        These are real backend and platform projects spanning civic services,
+                        marketplace systems, e-commerce APIs, CMS delivery, and NDA-protected
+                        enterprise work.
+                    </p>
+
+                    <div class="project-stack">
+                        <article class="project-card stagger-item" style="--delay: 0.08s;">
+                            <!-- Replace this block with a project image sized 420x260px (16:10). -->
+                            <div class="project-media">
+                                <div class="image-placeholder image-placeholder--project">
+                                    <span class="placeholder-kicker">Smart Rajshahi</span>
+<!--                                    <strong>420 x 260</strong>-->
+<!--                                    <span class="placeholder-spec">16:10, JPG / PNG / WebP recommended</span>-->
+                                </div>
+                            </div>
+
+                            <div class="project-copy">
+                                <p class="project-kicker">Civic services platform</p>
+                                <h4>smartrajshahi.gov.bd</h4>
+                                <p>
+                                    An application designed for the citizens of a city corporation,
+                                    providing comprehensive access to city services through the app.
+                                    This includes services like obtaining a Trade License, paying
+                                    holding taxes, and acquiring new holding numbers.
+                                </p>
+                                <div class="project-tech" aria-label="Technologies used for smartrajshahi.gov.bd">
+                                    <span class="tech-tag">Django</span>
+                                    <span class="tech-tag">Django Rest Framework</span>
+                                    <span class="tech-tag">Redis</span>
+                                    <span class="tech-tag">jQuery</span>
+                                    <span class="tech-tag">Ajax</span>
+                                    <span class="tech-tag">ORM</span>
+                                </div>
+                                <div class="project-links">
+                                    <a class="project-link" href="https://smartrajshahi.gov.bd" target="_blank"
+                                       rel="noreferrer">
+                                        Website
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="project-card stagger-item" style="--delay: 0.16s;">
+                            <!-- Replace this block with a project image sized 420x260px (16:10). -->
+                            <div class="project-media">
+                                <div class="image-placeholder image-placeholder--project">
+                                    <span class="placeholder-kicker">Rest Space</span>
+                                </div>
+                            </div>
+
+                            <div class="project-copy">
+                                <p class="project-kicker">Three-sided marketplace</p>
+                                <h4>Rest Space</h4>
+                                <p>
+                                    Developed a three-sided marketplace that emulates a premium
+                                    booking and reservation system, drawing inspiration from
+                                    platforms such as Airbnb. Functioning as a back-end developer
+                                    for this project.
+                                </p>
+                                <div class="project-tech" aria-label="Technologies used for Rest Space">
+                                    <span class="tech-tag">DRF</span>
+                                    <span class="tech-tag">JWT</span>
+                                    <span class="tech-tag">ORM</span>
+                                    <span class="tech-tag">Twilio</span>
+                                    <span class="tech-tag">Cronjob</span>
+                                    <span class="tech-tag">Elasticsearch</span>
+                                    <span class="tech-tag">PostgreSQL</span>
+                                    <span class="tech-tag">and more</span>
+                                </div>
+                                <div class="project-links">
+                                    <a class="project-link" href="https://www.restspace.us/" target="_blank"
+                                       rel="noreferrer">
+                                        Website
+                                    </a>
+                                    <a class="project-link" href="https://apps.apple.com/us/app/restpace/id1602270464"
+                                       target="_blank" rel="noreferrer">
+                                        App
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="project-card stagger-item" style="--delay: 0.24s;">
+                            <!-- Replace this block with a project image sized 420x260px (16:10). -->
+                            <div class="project-media">
+                                <div class="image-placeholder image-placeholder--project">
+                                    <span class="placeholder-kicker">Spacium</span>
+                                </div>
+                            </div>
+
+                            <div class="project-copy">
+                                <p class="project-kicker">E-commerce API</p>
+                                <h4>Spacium</h4>
+                                <p>
+                                    Developed the interior section API for Spacium, an e-commerce
+                                    application catering to the UAE market.
+                                </p>
+                                <div class="project-tech" aria-label="Technologies used for Spacium">
+                                    <span class="tech-tag">Django</span>
+                                    <span class="tech-tag">DRF</span>
+                                    <span class="tech-tag">REST Framework JWT</span>
+                                    <span class="tech-tag">ORM</span>
+                                    <span class="tech-tag">Celery</span>
+                                    <span class="tech-tag">PostgreSQL</span>
+                                </div>
+                                <div class="project-links">
+                                    <a class="project-link" href="https://spacium.ae/" target="_blank" rel="noreferrer">
+                                        Website
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="project-card stagger-item" style="--delay: 0.32s;">
+                            <!-- Replace this block with a project image sized 420x260px (16:10). -->
+                            <div class="project-media">
+                                <div class="image-placeholder image-placeholder--project">
+                                    <span class="placeholder-kicker">Prevention Forward</span>
+                                </div>
+                            </div>
+
+                            <div class="project-copy">
+                                <p class="project-kicker">Wagtail CMS delivery</p>
+                                <h4>preventionforward.org</h4>
+                                <p>
+                                    Developed the website for an organization using the Wagtail CMS
+                                    platform.
+                                </p>
+                                <div class="project-tech" aria-label="Technologies used for preventionforward.org">
+                                    <span class="tech-tag">Django</span>
+                                    <span class="tech-tag">Wagtail CMS</span>
+                                    <span class="tech-tag">PostgreSQL</span>
+                                </div>
+                                <div class="project-links">
+                                    <a class="project-link" href="https://www.preventionforward.org/en/" target="_blank"
+                                       rel="noreferrer">
+                                        Website
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="project-card project-card--nda stagger-item" style="--delay: 0.40s;">
+                            <!-- Replace this block with a project image sized 420x260px (16:10). -->
+                            <div class="project-media">
+                                <div class="image-placeholder image-placeholder--project image-placeholder--nda">
+                                    <span class="placeholder-kicker">Confidential Preview</span>
+                                    <strong>NDA</strong>
+                                    <span class="placeholder-spec">Project visuals are intentionally withheld</span>
+                                </div>
+                            </div>
+
+                            <div class="project-copy">
+                                <div class="project-heading-row">
+                                    <p class="project-kicker">Enterprise backend delivery</p>
+                                    <span class="nda-badge">NDA Protected</span>
+                                </div>
+                                <h4>Confidential Projects</h4>
+                                <p>
+                                    Worked on several enterprise-level backend systems across secure,
+                                    high-scale delivery environments.
+                                </p>
+                                <ul class="project-points">
+                                    <li>High-performance REST API systems</li>
+                                    <li>Data processing and automation platforms</li>
+                                    <li>Scalable database architectures</li>
+                                    <li>Search optimization systems using Elasticsearch</li>
+                                    <li>Secure authentication and authorization systems</li>
+                                </ul>
+                                <div class="project-tech" aria-label="Technology focus for confidential projects">
+                                    <span class="tech-tag">REST APIs</span>
+                                    <span class="tech-tag">Automation</span>
+                                    <span class="tech-tag">Elasticsearch</span>
+                                    <span class="tech-tag">Scalable Databases</span>
+                                    <span class="tech-tag">Authentication</span>
+                                </div>
+                                <p class="nda-note">
+                                    Due to signed Non-Disclosure Agreements (NDA), project details
+                                    cannot be publicly shared. Further technical details can be
+                                    discussed during interview.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </article>
+
+            <article class="message" id="experience" data-response="experience" hidden>
+                <div class="message-meta">
+                    <span class="message-role">Assistant</span>
+                    <span class="message-tag">profile.experience()</span>
+                </div>
+                <div class="message-bubble">
+                    <div class="response-title">
+                        <span class="response-count">04</span>
+                        <div>
+                            <p class="response-label">Experience</p>
+                            <h3>Professional experience in an AI-response timeline</h3>
+                        </div>
+                    </div>
+
+                    <p class="type-line" data-speed="16">
+                        Work Experience
+                    </p>
+
+                    <div class="experience-timeline">
+                        <article class="experience-card stagger-item" style="--delay: 0.08s;">
+                            <div class="experience-marker" aria-hidden="true"></div>
+                            <div class="experience-header">
+                                <h4>Senior Software Developer &mdash; Python Developer</h4>
+                                <p>Celltron EMS</p>
+                                <span>Mar 2021 &ndash; Jan 2024</span>
+                            </div>
+                            <ul class="experience-list">
+                                <li>Developed and maintained backend systems using Django and DRF</li>
+                                <li>Designed REST APIs for various applications</li>
+                                <li>Built scalable database structures using PostgreSQL and MySQL</li>
+                                <li>Implemented authentication systems using JWT</li>
+                                <li>Performed debugging, testing, and performance optimization</li>
+                                <li>Collaborated with clients to gather and analyze requirements</li>
+                                <li>Developed reusable backend components to speed up development</li>
+                            </ul>
+                        </article>
+
+                        <article class="experience-card stagger-item" style="--delay: 0.16s;">
+                            <div class="experience-marker" aria-hidden="true"></div>
+                            <div class="experience-header">
+                                <h4>Junior Software Developer</h4>
+                                <p>Pakiza Technovation Limited</p>
+                                <span>April 2020 &ndash; Nov 2020</span>
+                            </div>
+                            <ul class="experience-list">
+                                <li>Developed backend features using Django framework</li>
+                                <li>Created REST APIs for web applications</li>
+                                <li>Assisted in database design and backend logic implementation</li>
+                                <li>Participated in testing and debugging backend modules</li>
+                                <li>Worked closely with senior developers to improve application performance</li>
+                            </ul>
+                        </article>
+
+                        <article class="experience-card stagger-item" style="--delay: 0.24s;">
+                            <div class="experience-marker" aria-hidden="true"></div>
+                            <div class="experience-header">
+                                <h4>Software Developer (Startup Experience)</h4>
+                                <p>Early-stage product venture</p>
+                                <span>Mar 2016 &ndash; Nov 2016</span>
+                            </div>
+                            <ul class="experience-list">
+                                <li>Worked as backend developer using PHP CodeIgniter framework</li>
+                                <li>Participated in early-stage product development and planning</li>
+                                <li>Designed application logic and database structure</li>
+                                <li>Gained experience working in startup environment</li>
+                                <li>In 2015, we initiated a startup venture that, regrettably, did not achieve its
+                                    intended goals. During this endeavour, my roles encompassed that of a mind mapper
+                                    and a backend developer utilizing the CodeIgniter framework.
+                                </li>
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+            </article>
+
+            <article class="message" id="contact" data-response="contact" hidden>
+                <div class="message-meta">
+                    <span class="message-role">Assistant</span>
+                    <span class="message-tag">profile.contact()</span>
+                </div>
+                <div class="message-bubble">
+                    <div class="response-title">
+                        <span class="response-count">05</span>
+                        <div>
+                            <p class="response-label">Contact</p>
+                            <h3>Reach out through the channels below</h3>
+                        </div>
+                    </div>
+
+                    <p class="type-line" data-speed="16">
+                        If you want to discuss backend engineering, secure systems, or R&amp;D
+                        collaboration, these are the fastest ways to reach me.
+                    </p>
+
+                    <div class="contact-grid">
+                        <a class="contact-card stagger-item" style="--delay: 0.08s;" href="mailto:me.jaki@outlook.com">
+                            <span class="contact-label">Email</span>
+                            <strong>me.jaki@outlook.com</strong>
+                            <span>Direct contact for projects and collaboration</span>
+                        </a>
+
+                        <a
+                                class="contact-card stagger-item"
+                                style="--delay: 0.16s;"
+                                href="https://github.com/jakiiii"
+                                target="_blank"
+                                rel="noreferrer"
+                        >
+                            <span class="contact-label">GitHub</span>
+                            <strong>github.com/jakiiii</strong>
+                            <span>Public code, repositories, and ongoing work</span>
+                        </a>
+
+                        <a
+                                class="contact-card stagger-item"
+                                style="--delay: 0.24s;"
+                                href="https://www.linkedin.com/in/abdullah-al-mohin-jaki"
+                                target="_blank"
+                                rel="noreferrer"
+                        >
+                            <span class="contact-label">LinkedIn</span>
+                            <strong>linkedin.com/in/abdullah-al-mohin-jaki</strong>
+                            <span>Replace this placeholder with your LinkedIn profile URL</span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </div>
     </main>
 
-    <footer class="footer">
-      <div class="container footer-wrap">
-        <p>© <span id="year"></span> Abdullah Al Mohin Jaki. All rights reserved.</p>
-        <a href="#home">Back to top ↑</a>
-      </div>
+    <footer class="page-footer">
+        <span></span>
+        <span>&copy; <span id="year"></span> Jaki</span>
     </footer>
-  </div>
+</div>
 
-  <script src="script.js"></script>
+<nav class="floating-nav glass-panel" aria-label="Floating AI navigation">
+    <div class="prompt-display">
+        <span class="prompt-prefix">/prompt</span>
+        <span id="prompt-preview">Try about, skills, or projects...</span>
+    </div>
+
+    <div class="prompt-actions">
+        <button class="nav-prompt" type="button" data-target="about">About Me</button>
+        <button class="nav-prompt" type="button" data-target="skills">Skills</button>
+        <button class="nav-prompt" type="button" data-target="projects">Projects</button>
+        <button class="nav-prompt" type="button" data-target="experience">Experience</button>
+        <button class="nav-prompt" type="button" data-target="contact">Contact</button>
+    </div>
+</nav>
+
+<script src="script.js"></script>
 </body>
 </html>
