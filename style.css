@@ -357,6 +357,10 @@ svg {
   font-size: 0.92rem;
 }
 
+.mobile-contact-btn {
+  display: none;
+}
+
 .prompt-btn.is-active,
 .quick-chip.is-active,
 .nav-prompt.is-active {
@@ -1326,6 +1330,24 @@ svg {
 
   .prompt-display {
     min-width: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-bottom: 158px;
+  }
+
+  .bottom-prompt-bar {
+    display: none;
+  }
+
+  .mobile-contact-btn {
+    display: inline-flex;
+  }
+
+  .quick-prompts {
+    justify-content: center;
   }
 }
 
